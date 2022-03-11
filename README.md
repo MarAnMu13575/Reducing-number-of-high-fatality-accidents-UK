@@ -1,26 +1,26 @@
 # Reducing-number-of-high-fatality-accidents-UK
 
-Title
+# Title
 
 Insights in a database published by the UK department for transport 
 
-Introduction
+# Introduction
 
 In 2020, 1516 people were killed on UK roads, with 1460 deaths recorded in Britain and 56 recorded in Norther Ireland. This was significant decline compared with the previous year is due in part to the lockdown measures that were imposed in response to the COVID-19 pandemic.  The number of road deaths in the UK plateaued from 2012 to 2019 at around 1850 deaths a year, or equivalent of five a day, on average.
 The trend relating to serious injuries is more difficult to analyze, as the method the police use to record severity has changed in recent years. However, this number has declined slightly since 2010, the total figure is still more than 22,000 serious injuries a year, or the equivalent of around 60 a day (Brake, 2021)
 The reporting department have been collecting data on every accident that is reported in 2020, looking for insights to reduce the number of major incidents. The safety team classes major incidents as fatal accidents involving 3+ casualties.
 The data used in this report was published by the department for transport. Contains public sector information licensed under the Open Government License v3.0. Link: https://data.gov.uk/dataset/road-accidents-safety-data 
 
-Content
+# Content
 
-1.	What time of day and day of the week do most major incidents happen?
+## 1.	What time of day and day of the week do most major incidents happen?
 
 The day of the week where most of the major incidents happens was Saturday with 821 reports, in second Friday with 798, for reference look in Figure 1. 
 The time of the day where most of the major incidents happens were 15:30 pm and 16:00 pm with 35 reports both. 
 As we can see in the Figures referent to the day of the week where most incidents happen, more reports appear as the weekend approaches, 
 and according to the time, most of the hours go from the mid- afternoon range of 14:00 pm to 16:40 pm.
 
-2.	Are there any patterns in the time of day/ day of the week when major incidents occur?
+## 2.	Are there any patterns in the time of day/ day of the week when major incidents occur?
 
 Using the time of the day and day of the week where most major incidents happen, four graphs were created to search for patterns.
 In Figure 3 was compared first road number, first road class and road type. 
@@ -40,7 +40,7 @@ In the Figure 6 was compared the road surface conditions and urban or rural area
 perceiving that the urban or rural area 1 has more reports road surface conditions 1 than the urban or rural area 2. 
 While the road surface conditions 2 are similar for both graphs. 
 
-3.	What characteristics stand out in major incidents compared with other accidents?
+## 3.	What characteristics stand out in major incidents compared with other accidents?
 
 Looking for a standout characteristic in major incidents compared with other accidents, it was found out that there are more reports for <=2 number of casualties. 
 Even if the reports are more the distribution between fist road number, road type and first road class look be the same, with road type 6 
@@ -57,7 +57,7 @@ for major accidents the count of reports are similar for road surface conditions
 Looking in the second graph the difference between road surface conditions 1 and 2 looks being the triple for urban or rural area 1, 
 while in the urban or rural area 2 the condition 1 are two times more than condition 2. And comparing both areas, the 1 first one is three times more than area 2. 
 
-4.	On what areas would you recommend the planning team focus their brainstorming efforts to reduce major incidents?
+## 4.	On what areas would you recommend the planning team focus their brainstorming efforts to reduce major incidents?
 
 To focus the brainstorming efforts to reduce major incidents a decision tree was created using the values x and y, being y the dependent variable (number of casualties). 
 For the decision tree the min samples leaf used was 5, the criterion was Gini, and a random state was 111. 
@@ -70,5 +70,5 @@ Looking for the weight of each independent variable the top five are:
 •	Speed limit
 •	Junction detail
 
-Reference
+# Reference
 Brake (2021). UK road death and casualty statistics. From: https://www.brake.org.uk/get-involved/take-action/mybrake/knowledge-centre/uk-road-safety
