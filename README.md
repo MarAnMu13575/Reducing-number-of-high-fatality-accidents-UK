@@ -1,6 +1,6 @@
 # Reducing-number-of-high-fatality-accidents-UK
 
-# Title
+# Purpose
 
 Insights in a database published by the UK department for transport 
 
